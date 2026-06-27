@@ -14,8 +14,8 @@ st.set_page_config(
 # -----------------------------
 # Load Model
 # -----------------------------
-model = joblib.load("models/churn_model.pkl")
-columns = joblib.load("models/columns.pkl")
+model = joblib.load("churn_model.pkl")
+columns = joblib.load("columns.pkl")
 
 # -----------------------------
 # Title
